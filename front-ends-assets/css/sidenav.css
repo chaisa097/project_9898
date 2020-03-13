@@ -14,7 +14,8 @@
  }
  
  .nav-destop {
-     background-color: #fff;
+     /* background: linear-gradient(90deg, rgba(218, 165, 32, 1) 35%, rgba(255, 215, 0, 1) 100%); */
+     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
      position: relative;
      z-index: 2001;
  }
@@ -26,12 +27,13 @@
  
  .footer {
      border-top: 3px solid #C80000;
-     background-color: #fff;
+     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+     /* background-color: #f0f0f0; */
      color: #080808;
  }
  
  .navbar-dark .navbar-nav .nav-link {
-     color: #080808;
+     color: #fff;
      font-size: 24px;
  }
  
@@ -68,7 +70,7 @@
  }
  
  .tap-color {
-     background-color: #FFB700;
+     background-color: #000;
      height: 60px;
  }
  
@@ -82,10 +84,29 @@
      font-size: 14px;
  }
  
+ .h-nav {
+     height: 151px;
+ }
+ 
+ .midle-img {
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%)
+ }
+ 
+ .bg-red {
+     background-color: #C80000;
+ }
+ 
+ .bg-black {
+     background-color: #080808;
+ }
+ 
  .burger-color {
      color: #fff;
      font-size: 30px;
-     margin-top: 32px;
+     margin-top: 23px;
  }
  
  .dropdown-item.active,
@@ -106,13 +127,13 @@
  }
  
  .bor-nav-tran {
-     border-top: 3px solid #C80000;
-     border-bottom: 3px solid #C80000;
+     border-top: 3px solid #000000;
+     border-bottom: 3px solid #000000;
  }
  
  .btn-register {
-     background-color: #080808;
-     border: 1px solid #080808;
+     background-color: #C80000;
+     border: 1px solid #C80000;
      color: #f0f0f0;
      width: 180px;
      height: 40px;
@@ -162,7 +183,7 @@
  }
  
  .left-content {
-     right: 0;
+     right: 50px;
      position: absolute;
  }
  
@@ -218,7 +239,7 @@
  .nav-mobile {
      z-index: 2001;
      position: relative;
-     background-color: #000;
+     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
  }
  
  .banner-home-mobile {
@@ -254,5 +275,5 @@
  }
  
  .icon-destop {
-     width: 287px;
+     width: 375px;
  }

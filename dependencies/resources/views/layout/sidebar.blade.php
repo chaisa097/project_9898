@@ -1,8 +1,8 @@
 <div class="nav-destop">
 <div class="d-flex">
-    <div class="text-center m-auto nav-top-logo header-color">
+    <div class="text-center m-auto nav-top-logo header-color h-nav">
         <a href="{{route('index','home')}}">
-          <img class="icon-destop" src="{{ asset('front-ends-assets/images/huay789.svg')}}" >
+          <img class="icon-destop midle-img"  src="{{ asset('front-ends-assets/images/logo.png')}}" >
         </a>
     </div>
     <div class="left-content header-color  mt-4"> 
@@ -14,8 +14,8 @@
                 Phone :  <a style="color:inherit" href="tel:{{$con->name}}">{{$con->name}}<a> <br>
                 @elseif($con->type == 2)
                 ID Line : {{$con->name}} <br>
-                @elseif($con->type == 3)
-                Email : {{$con->name}} <br>
+                {{-- @elseif($con->type == 3)
+                Email : {{$con->name}} <br> --}}
                 @endif
             @endif
             @endforeach
@@ -23,7 +23,7 @@
             </div>
         </div>
 </div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-transparent bor-nav-tran sidebarNavigation" data-sidebarClass="navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-black bor-nav-tran sidebarNavigation" data-sidebarClass="navbar-dark bg-dark">
         <div class="container-fluid">
             {{--
             <a class="navbar-brand" href="#">Navbar</a> --}}
@@ -93,7 +93,7 @@
 <div class="nav-mobile">
     <div class="inside-nav d-flex">
        <div class="m-auto ">
-            <img class="mobile-logo" src="{{asset('front-ends-assets/images/huay789.svg')}}" >
+            <img class="mobile-logo" src="{{asset('front-ends-assets/images/logo.png')}}" >
         </div>
        <span class="color-w po-si-r burger-color" style="cursor:pointer " onclick="openNav()">&#9776;</span>
     </div>

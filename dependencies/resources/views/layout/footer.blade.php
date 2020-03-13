@@ -3,7 +3,7 @@
                 <div class="row mt-5">
                     <div class="col-lg-4">
                         <div class="">
-                                <img class="logo-footer" src="{{ asset('front-ends-assets/images/huay789.svg')}}" >
+                                <img class="logo-footer" src="{{ asset('front-ends-assets/images/logo.png')}}" >
                         </div>
                     </div>
                     <div class="col-lg-4">
